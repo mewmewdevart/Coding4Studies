@@ -1,0 +1,10 @@
+Desafio 1: Imprima o número total de argumentos passados para o programa.
+Desafio 2: Imprima todos os argumentos passados para o programa em ordem inversa.
+Desafio 3: Verifique se o primeiro argumento passado é um número primo.
+Desafio 4: Conte e imprima o número de argumentos que são números inteiros.
+Desafio 5: Verifique se um arquivo com o nome passado como argumento existe no diretório atual.
+Desafio 6: Calcule a soma de todos os números passados como argumentos.
+Desafio 7: Crie um programa que receba uma sequência de números como argumentos e imprima o maior e o menor número.
+Desafio 8: Implemente um programa que determine se todos os argumentos são palíndromos.
+Desafio 9: Implemente uma calculadora que suporte operações básicas (+, -, *, /) usando os argumentos passados.
+Desafio 10: Crie um programa que leia um arquivo passado como argumento e conte o número de linhas, palavras e caracteres presentes nele.
