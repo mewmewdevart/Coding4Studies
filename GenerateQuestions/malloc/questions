@@ -1,0 +1,10 @@
+Desafio 1: Aloque dinamicamente memória para armazenar um único inteiro e atribua um valor a ele.
+Desafio 2: Crie uma função para alocar dinamicamente um array de inteiros com um tamanho definido pelo usuário.
+Desafio 3: Escreva uma função que receba uma string como entrada e retorne uma nova string com todos os caracteres em maiúsculas, alocada dinamicamente.
+Desafio 4: Implemente uma função que receba uma matriz como entrada e retorne uma matriz transposta alocada dinamicamente.
+Desafio 5: Crie uma estrutura de dados para armazenar informações sobre alunos (nome, idade, nota) e aloque dinamicamente um array de estruturas de alunos.
+Desafio 6: Escreva uma função que receba duas strings como entrada e retorne uma nova string contendo a concatenação das duas, alocada dinamicamente.
+Desafio 7: Implemente uma função que receba um array de números e retorne um novo array com apenas os números pares, alocado dinamicamente.
+Desafio 8: Crie uma função que leia um arquivo de texto e retorne uma string contendo o conteúdo do arquivo, alocada dinamicamente.
+Desafio 9: Escreva uma função que receba uma lista encadeada como entrada e retorne uma nova lista encadeada invertida, alocada dinamicamente.
+Desafio 10: Implemente uma função que receba uma matriz esparsa (com muitos elementos zeros) e retorne uma matriz compactada alocada dinamicamente.
