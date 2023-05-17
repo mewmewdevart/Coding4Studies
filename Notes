@@ -1,0 +1,37 @@
+Estudar: A utilização de sizeof e strlen
+
+O `sizeof(str)/sizeof(str[0])` vai pegar a quantidade de bytes do array, porém se não for um array ele pega a quantidade de bytes do ponteiro (que numa arquitetura 64bits é 8). O clang inclusive me dá um warning quando faço isso com ponteiros
+O `strlen` vai de fato verificar quantos bytes ocupa a string, já que vai percorrer até localizar o byte nulo.
+Segue um exemplo
+```c
+#include <stdlib.h>
+#include <stdio.h>
+#include <strings.h>
+
+int    main(void)
+{
+    char    *malloc_string;
+    char    *stack_string = "Hello There";
+    char    array_string[] = "General Kenobi";
+
+    malloc_string = malloc(10);
+    strcpy(malloc_string, "Bananinha");
+    printf("Malloc == % 2d\n", (int) strlen(malloc_string));
+    printf("Stack  == % 2d\n", (int) strlen(stack_string));
+    printf("Array  == % 2d\n", (int) strlen(array_string));
+    
+    printf("Malloc == % 2d\n", (int) (sizeof(malloc_string) / sizeof(malloc_string[0])));
+    printf("Stack  == % 2d\n", (int) (sizeof(stack_string) / sizeof(stack_string[0])));
+    printf("Array  == % 2d\n", (int) (sizeof(array_string) / sizeof(array_string[0])));
+
+}
+```
+
+```
+Malloc ==  9
+Stack  ==  11
+Array  ==  14
+Malloc ==  8
+Stack  ==  8
+Array  ==  15
+```
