@@ -11,13 +11,6 @@ SOURCE = ft_isalnum.c \
  ft_isprint.c \
  ft_islower.c \
  ft_isupper.c \
- ft_strlen.c \
- ft_strchr.c \
- ft_strcmp.c \
- ft_strlcat.c \
- ft_strlcpy.c \
- ft_strncmp.c \
- ft_strrchr.c \
 
 # .c files = .o files
 OBJECTS = $(SOURCE:.c=.o)
