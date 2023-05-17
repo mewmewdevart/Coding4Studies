@@ -1,0 +1,24 @@
+------ Basic
+Sintaxe e estrutura básica da linguagem C
+Tipos de dados, variáveis e constantes
+Operadores aritméticos, lógicos e relacionais
+Estruturas de controle de fluxo, como if-else, switch-case, loops
+Funções, passagem de parâmetros e retornos
+Ponteiros e arrays
+Alocação dinâmica de memória
+Estruturas de dados como structs e unions
+Manipulação de arquivos
+Preprocessamento e diretivas do pré-processador
+
+------ Intermediate
+Sintaxe e estrutura básica da linguagem C
+Manipulação de ponteiros e endereços de memória
+Alocação dinâmica de memória usando malloc, calloc, realloc e free
+Manipulação de arrays e strings
+Uso de estruturas de controle, como if-else, loops (for, while) e switch-case
+Uso de funções, passagem de parâmetros e retornos
+Manipulação de arquivos e leitura/escrita de dados
+Uso de macros e diretivas do pré-processador
+Manipulação de estruturas de dados, como structs e unions
+Manipulação de bits e operações bitwise
+Conceitos avançados, como recursão, ordenação e pesquisa de dados
