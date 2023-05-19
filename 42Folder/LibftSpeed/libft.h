@@ -27,8 +27,10 @@ int			ft_isprint(int c);
 size_t		ft_strlen(const char *s);
 char		*ft_strchr(const char *s, int c);
 char		*ft_strrchr(const char *s, int c);
-//char		*ft_strlcpy(char *dest, const char *src, size_t size);
-//char		*ft_strlcat(char *dest, const char *src, size_t size);
+char		*ft_strlcpy_char(char *dest, const char *src, size_t size);
+size_t		ft_strlcpy(char *dst, const char *src, size_t size);
+char  *ft_strlcat_char(char *dst, const char *src, size_t size);
+size_t ft_strlcat(char *dst, const char *src, size_t size);
 //int			*ft_strcmp(const char *s1, const char *s2);
 //int			ft_strncmp(const char *s1, const char *s2, size_t n);
 
