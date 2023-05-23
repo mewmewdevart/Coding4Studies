@@ -2,7 +2,6 @@
 
 // Desafio 4: Crie uma função que inverta a ordem dos elementos em um array usando ponteiros.
 
-
 void ft_swap(int *a, int *b)
 {
     int tmp;
